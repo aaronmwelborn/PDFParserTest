@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PDFParserTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PDFParserTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PDFParserTest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PDFParserTest_main.iml" group="PDFParserTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PDFParserTest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PDFParserTest_test.iml" group="PDFParserTest" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+/Users/aaron/codebase/java/.metadata/.plugins/org.eclipse.jdt.core
+1560635227.index
+2368651254.index
