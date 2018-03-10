@@ -21,12 +21,17 @@ public class ReadPdf {
                 PDFTextStripper tStripper = new PDFTextStripper();
 
                 String pdfFileInText = tStripper.getText(document);
-                //System.out.println("Text:" + st);
 
                 // split by whitespace
+//                String lines[] = pdfFileInText.split("\\r?\\n");
                 String lines[] = pdfFileInText.split("\\r?\\n");
                 for (String line : lines) {
-                    System.out.println(line);
+                    if (line.contains(args[1])){
+                        System.out.println(line);
+                        break;
+                    } else if (line.equals(lines[lines.length-1])){
+                        System.out.println("The provided ID does not exist in this document.");
+                    }
                 }
 
             }
